@@ -14,6 +14,7 @@ A responsive web application built with **React** and **TailwindCSS** that displ
 
 ---
 
+
 ## 🧰 Technologies Used
 
 - React (Vite)
@@ -31,8 +32,8 @@ A responsive web application built with **React** and **TailwindCSS** that displ
 
 ## 🔗 Live Demo
 
-👉 [View online on Vercel](#)  
-*(Coming soon — will add link after deployment)*
+👉 [View online on Vercel](https://weather-app-paulos-projects-441dbc41.vercel.app/)  
+
 
 ---
 
