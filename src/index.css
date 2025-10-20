@@ -1,0 +1,25 @@
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* 🔧 Garante que a app ocupa o ecrã inteiro */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove scroll lateral e adiciona um fallback azul */
+body {
+  overflow-x: hidden;
+  background-color: #0ea5e9;
+}
+
+/* Melhora a renderização visual */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
