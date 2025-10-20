@@ -1,16 +1,54 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web application built with **React** and **TailwindCSS** that displays real-time weather data using the [OpenWeather API](https://openweathermap.org/api).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🌍 **Automatic geolocation** to show current weather at your location  
+- 🔍 **City search** for manual lookup  
+- 📆 **3-day forecast** with temperature, icons, and descriptions  
+- 📱 **Mobile-first responsive design** (iPhone style)  
+- ⚡ Built with **Vite**, **React**, **TailwindCSS**, and **Framer Motion**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (Vite)
+- TailwindCSS
+- Framer Motion
+- OpenWeather API
+
+---
+
+## 🖼️ Preview
+
+![App Screenshot](https://github.com/snd-7/weather-app/blob/main/app.png)
+
+---
+
+## 🔗 Live Demo
+
+👉 [View online on Vercel](#)  
+*(Coming soon — will add link after deployment)*
+
+---
+
+## ⚙️ Setup Instructions
+
+To run locally:
+
+```bash
+# Clone this repository
+git clone https://github.com/snd-7/weather-app.git
+
+# Enter the project folder
+cd weather-app
+
+# Install dependencies
+npm install
+
+# Run the app
+npm run dev
